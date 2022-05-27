@@ -1,0 +1,24 @@
+{
+  "name": "sms-reminder-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
+  },
+  "type": "module",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cron": "^2.0.0",
+    "dotenv": "^16.0.1",
+    "express": "^4.18.1",
+    "flybase": "^1.8.6",
+    "twilio": "^3.77.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.16"
+  }
+}
